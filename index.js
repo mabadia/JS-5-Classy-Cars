@@ -3,6 +3,8 @@ class Vehicle {
         this.model = model
     }
     drive() {
-        return this.model + "" + "drives"
+        return this.model + " " + "drives"
     }
 }
+
+class Sedan extends Vehicle()
